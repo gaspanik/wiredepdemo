@@ -1,0 +1,15 @@
+{
+  "name": "wiredepdemo",
+  "version": "0.0.1",
+  "description": "wiredep demo",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower install; wiredep -s index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wiredep": "^2.1.0"
+  }
+}
